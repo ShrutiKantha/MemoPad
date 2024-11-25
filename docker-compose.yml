@@ -1,0 +1,34 @@
+version: '3'
+services:
+  # Backend service
+  backend:
+    build:
+      context: ./backend # Path to the backend folder
+    ports:
+      - "5000:5000"  # Expose port 5000 for backend
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/inotebookdb # MongoDB URI (Mongo service name)
+    depends_on:
+      - mongo  # Ensure MongoDB is ready before starting the backend
+
+  # Frontend service
+  frontend:
+    build:
+      context: ./frontend  # Path to the frontend folder
+    ports:
+      - "80:80"  # Expose port 80 for React frontend
+    environment:
+      - REACT_APP_API_URL=http://backend:5000  # API URL for frontend to access backend
+    depends_on:
+      - backend  # Ensure backend is ready before frontend
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest  # Official MongoDB image
+    ports:
+      - "27017:27017"  # Expose MongoDB default port
+    volumes:
+      - mongo-data:/data/db  # Persist MongoDB data
+
+volumes:
+  mongo-data:  # Define a named volume for MongoDB data persistence
