@@ -1,0 +1,61 @@
+.custom-navbar {
+  padding: 0px 20px !important; /* Adjusts internal spacing for better look */
+  background-color: #feffdb; /* Optional: Navbar background color */
+}
+
+
+.navbar.navbar.custom-navbar .navbar-brand {
+    color: #444444 ;
+    font-weight: 700;
+}
+
+.navbar.custom-navbar .nav-link {
+    color: #444444 !important;
+    font-weight: 300 !important;
+    margin: 10px !important;    
+  }
+
+
+  .navbar.custom-navbar .nav-link.active {
+    font-weight: 500 !important;
+  }
+
+
+.navbar.custom-navbar .btn-primary {
+    background-color: #ffc60b !important; 
+    border: none !important;
+  }
+  
+  .navbar.custom-navbar .btn-primary:hover {
+    background-color: #ff8b00 !important; 
+  }
+  
+  form.d-flex {
+    display: flex;
+    flex-direction: row; /* Align buttons in a row */
+    gap: 10px; /* Add spacing between buttons */
+    justify-content: flex-end;
+  }
+
+.buttonclass {
+  background-color: #fba11f;
+  color: white;
+  text-align: center;
+  align-items: end;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  border-bottom: 5px solid #46280c;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  cursor: pointer; /* Indicate the buttons are clickable */
+}
+
+.navbar-logo {
+  width: 35px; 
+  height: 35px; 
+  margin-right: 10px; 
+}
+  

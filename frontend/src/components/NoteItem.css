@@ -1,0 +1,63 @@
+.note-item-wrapper {
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row, accounting for gaps */
+  box-sizing: border-box; /* Ensures proper spacing calculations */
+  max-width: calc(33.333% - 20px);
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: #feffdb; /* Light background for the wrapper */
+    font-family: "Sour Gummy", sans-serif;
+  }
+  
+  .my-card {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 450px;
+    background-color: #fbe55b; /* Bright card background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    box-sizing: border-box;
+  }
+  
+  .card-content {
+    width: 100%;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-actions i {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #444;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .card-actions i:hover {
+    color: #faa11e; /* Highlight color on hover */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  

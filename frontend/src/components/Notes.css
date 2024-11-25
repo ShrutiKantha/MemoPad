@@ -1,0 +1,121 @@
+h4 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  color: #444444;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 15px; /* Rounded corners for the modal */
+    background-color: #f9f9f9; /* Light background for the modal */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for a modern look */
+  }
+  
+  .modal-header {
+    background-color: #fbe55b; /* Blue header background */
+    color: #444444; /* White text for contrast */
+    padding: 15px; /* Add some padding */
+    border-bottom: none; /* Remove default border */
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+  }
+  
+  .modal-title {
+    font-size: 1.5rem; /* Increase the font size for the title */
+    font-weight: bold; /* Bold title for emphasis */
+    margin: 0; /* Reset margin */
+  }
+  
+  .modal-body {
+    padding: 20px; /* Add spacing inside the modal body */
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1; /* Subtle background for the footer */
+    border-top: none; /* Remove default border */
+    padding: 15px; /* Add padding for better spacing */
+    border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+  }
+  
+  .btn-close {
+    color: white; /* Close button color */
+    opacity: 1; /* Ensure visibility */
+  }
+
+  
+  .closebutton {
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    border-bottom: 5px solid #333;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+
+  .closebutton:hover {
+    background-color: #6a6868;
+    color: #333;
+  }
+  .updatebutton {
+    background-color: #fba11f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    border-bottom: 5px solid #46280c;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  .updatebutton:hover{
+    background-color: #fbe55b;
+    color: #444444;
+  }
+  
+  /* Input styling */
+  .modal-body .form-control {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded input corners */
+    padding: 10px; /* Add some padding */
+    font-size: 1rem; /* Increase input font size */
+  }
+  
+  .modal-body .form-control:focus {
+    border-color: #fbe55b; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(211, 230, 92, 0.5); /* Glow effect */
+  }
+  
+  .modal-body label {
+    font-weight: bold ; /* Bold labels */
+    margin-bottom: 5px; /* Spacing below label */
+    display: block; /* Ensure labels stack properly */
+  }
+  
+  input[type="text"]{
+    background-color: #ffffff;
+    border: none;
+    color: #0d0d0d;
+    padding: 10px 32px !important;
+    text-align:left !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
