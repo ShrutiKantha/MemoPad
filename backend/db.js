@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const mongoURI =
-  "mongodb://adminUser:adminPassword@localhost:27017/inotebookdb?authSource=admin";
+require('dotenv').config();
 
+const mongoURI = process.env.MONGO_URI;
 const connectToMongo = async () => {
   try {
     await mongoose.connect(mongoURI, {
