@@ -46,7 +46,7 @@ const Login = (props) => {
           <img src={loginimg} alt="login icon" />
         </div>
         <div className="mb-3">
-          <h2>Welcome back!</h2>
+          <h2>Welcome Shruti!</h2>
         </div>
        
         <div className="mb-3">
