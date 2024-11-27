@@ -43,7 +43,7 @@ const Login = (props) => {
      <div className="formContent">
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
-          <img src={loginimg} alt="login image" />
+          <img src={loginimg} alt="login icon" />
         </div>
         <div className="mb-3">
           <h2>Welcome back!</h2>

@@ -46,7 +46,7 @@ const Signup = (props) => {
      <div className="formContent">
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
-          <img src={signupimg} alt="login image" />
+          <img src={signupimg} alt="sign icon" />
         </div>
         <div className="mb-3">
           <h2>Start Your MemoPad Journey!</h2>
